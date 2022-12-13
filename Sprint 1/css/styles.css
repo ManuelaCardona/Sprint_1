@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.Part1 {
+  background-color: hsl(10, 79%, 65%);
+  width: 370px;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: hsl(27, 66%, 92%);
+}
+
+.Top_text h2 {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.Top_text h4 {
+  font-size: 12px;
+}
+
+.Card .Part2 {
+  background-color: hsl(33, 100%, 98%);
+  width: 370px;
+  height: 350px;
+  margin-top: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.Bars {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-bottom: 1.5px solid hsl(28, 25%, 85%);
+}
+.Graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#content1, #content2, #content3, #content4, #content5, #content6, #content7 {
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 5px;
+  display: none;
+  opacity: 7;
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+.text_bars {
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 5px;
+  display: none;
+  opacity: 7;
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slide{
+  0%{opacity: 0%}
+  100%{opacity: 7;}
+}
+
+.text_graph {
+  margin-top: 3px;
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
+
+.Graphic_properties1 {
+  width: 34px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.Properties1 {
+  height: 40px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Graph:hover #content1{
+  display: block;
+}
+
+.Graph:hover #content2{
+  display: block;
+}
+
+.Graph:hover #content3{
+  display: block;
+}
+
+.Graph:hover #content4{
+  display: block;
+}
+
+.Graph:hover #content5{
+  display: block;
+}
+
+.Graph:hover #content6{
+  display: block;
+}
+
+.Graph:hover #content7{
+  display: block;
+}
+
+.Properties1:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties2 {
+  height: 68px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Properties2:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties3 {
+  height: 138px;
+  background-color: hsl(186, 34%, 60%);
+}
+
+.Properties3:hover {
+  background-color: hsl(187, 30%, 71%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties4 {
+  height: 80px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Properties4:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties5 {
+  height: 60px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Properties5:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties6 {
+  height: 114px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Properties6:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Properties7 {
+  height: 66px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Properties7:hover {
+  background-color: hsl(10, 76%, 72%);
+  cursor: pointer;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.Part3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.text3_1 {
+  color: hsl(28, 10%, 53%);
+  font-size: 13px;
+}
+#contentT {
+  font-size: 27px;
+  color: hsl(25, 47%, 15%);
+  margin-top: 3px;
+}
+
+.text3_3 {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.text3_3 h5 {
+  font-size: 10px;
+  color: hsl(25, 47%, 15%);
+}
+
+.text3_3 h4 {
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
+
